@@ -5,5 +5,6 @@ package com.smallbluedots.dice.generator;
  * dariusz.lelek@gmail.com
  */
 
-public class RandomGeneratorProvider {
+public interface NumberProvider {
+    int getNext();
 }
